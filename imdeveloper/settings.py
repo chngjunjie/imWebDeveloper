@@ -25,12 +25,13 @@ SECRET_KEY = '6r8k#%60ak#gmsz!m8k8q#e*#4o_td+$$dq*s&=)3anm=4c3@4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'homeintro.apps.HomeintroConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -70,13 +71,23 @@ TEMPLATES = [
 WSGI_APPLICATION = 'imdeveloper.wsgi.application'
 
 
+
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
+    # 'default': {
+    #      'ENGINE': 'django.db.backends.sqlite3',
+    #      'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    # }
+
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'wrwrkynm',
+        'USER': 'wrwrkynm',
+        'PASSWORD': 'eX148hUqGTMwXjvVwdXZUMuSwLK_RGWD',
+        'HOST': 'arjuna.db.elephantsql.com',
+        'PORT': '',
     }
 }
 
@@ -117,7 +128,24 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
-]
+#STATIC_URL = '/static/'
+#STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, 'static')
+#] 
+
+
+DEFAULT_FILE_STORAGE = 'imdeveloper.custom_azure.AzureMediaStorage'
+STATICFILES_STORAGE = 'imdeveloper.custom_azure.PublicAzureStorage'
+#STATIC_ROOT = 'https://allenchngstorage.blob.core.windows.net/lavastatic/'
+
+STATIC_LOCATION = "lavastatic"
+
+AZURE_ACCOUNT_NAME = "allenchngstorage"
+AZURE_CUSTOM_DOMAIN = f'allenchngstorage.blob.core.windows.net'
+
+STATIC_URL = f'https://allenchngstorage.blob.core.windows.net/lavastatic/'
+MEDIA_URL = f'https://allenchngstorage.blob.core.windows.net/lavamedia/'
+MEDIA_ROOT = f'https://allenchngstorage.blob.core.windows.net/lavamedia/'
+
+#MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+#MEDIA_URL = '/media/'
