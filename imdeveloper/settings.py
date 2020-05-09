@@ -81,12 +81,21 @@ DATABASES = {
     #      'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
 
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #     'NAME': 'wrwrkynm',
+    #     'USER': 'wrwrkynm',
+    #     'PASSWORD': 'eX148hUqGTMwXjvVwdXZUMuSwLK_RGWD',
+    #     'HOST': 'arjuna.db.elephantsql.com',
+    #     'PORT': '',
+    # }
+
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'wrwrkynm',
-        'USER': 'wrwrkynm',
-        'PASSWORD': 'eX148hUqGTMwXjvVwdXZUMuSwLK_RGWD',
-        'HOST': 'arjuna.db.elephantsql.com',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'online',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': 'localhost',
         'PORT': '',
     }
 }
@@ -128,24 +137,24 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-#STATIC_URL = '/static/'
-#STATICFILES_DIRS = [
-#    os.path.join(BASE_DIR, 'static')
-#] 
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+   os.path.join(BASE_DIR, 'static')
+]
 
 
-DEFAULT_FILE_STORAGE = 'imdeveloper.custom_azure.AzureMediaStorage'
-STATICFILES_STORAGE = 'imdeveloper.custom_azure.PublicAzureStorage'
-#STATIC_ROOT = 'https://allenchngstorage.blob.core.windows.net/lavastatic/'
+# DEFAULT_FILE_STORAGE = 'imdeveloper.custom_azure.AzureMediaStorage'
+# STATICFILES_STORAGE = 'imdeveloper.custom_azure.PublicAzureStorage'
+# #STATIC_ROOT = 'https://allenchngstorage.blob.core.windows.net/lavastatic/'
+#
+# STATIC_LOCATION = "lavastatic"
+#
+# AZURE_ACCOUNT_NAME = "allenchngstorage"
+# AZURE_CUSTOM_DOMAIN = f'allenchngstorage.blob.core.windows.net'
+#
+# STATIC_URL = f'https://allenchngstorage.blob.core.windows.net/lavastatic/'
+# MEDIA_URL = f'https://allenchngstorage.blob.core.windows.net/lavamedia/'
+# MEDIA_ROOT = f'https://allenchngstorage.blob.core.windows.net/lavamedia/'
 
-STATIC_LOCATION = "lavastatic"
-
-AZURE_ACCOUNT_NAME = "allenchngstorage"
-AZURE_CUSTOM_DOMAIN = f'allenchngstorage.blob.core.windows.net'
-
-STATIC_URL = f'https://allenchngstorage.blob.core.windows.net/lavastatic/'
-MEDIA_URL = f'https://allenchngstorage.blob.core.windows.net/lavamedia/'
-MEDIA_ROOT = f'https://allenchngstorage.blob.core.windows.net/lavamedia/'
-
-#MEDIA_ROOT = os.path.join(BASE_DIR,'media')
-#MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+MEDIA_URL = '/media/'
