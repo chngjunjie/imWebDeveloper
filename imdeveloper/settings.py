@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import pymysql
+pymysql.version_info = (1, 3, 13, "final", 0)
+pymysql.install_as_MySQLdb()
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -81,23 +84,23 @@ DATABASES = {
     #      'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
 
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'wrwrkynm',
-        'USER': 'wrwrkynm',
-        'PASSWORD': 'eX148hUqGTMwXjvVwdXZUMuSwLK_RGWD',
-        'HOST': 'arjuna.db.elephantsql.com',
-        'PORT': '',
-    }
-    #
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'online',
-    #     'USER': 'root',
-    #     'PASSWORD': '',
+    #   'default': {
+      #  'ENGINE': 'django.db.backends.postgresql_psycopg2',
+       # 'NAME': 'wrwrkynm',
+        #'USER': 'wrwrkynm',
+        #'PASSWORD': 'eX148hUqGTMwXjvVwdXZUMuSwLK_RGWD',
+        #'HOST': 'arjuna.db.elephantsql.com',
+        #'PORT': '',
+   # }
+    
+     'default': {
+         'ENGINE': 'django.db.backends.mysql',
+         'NAME': 'online',
+         'USER': 'root',
+         'PASSWORD': 'jjlove123',
     #     'HOST': 'localhost',
-    #     'PORT': '',
-    # }
+     #    'PORT': '',
+     }
 }
 
 
