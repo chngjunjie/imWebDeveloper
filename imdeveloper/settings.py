@@ -81,23 +81,23 @@ DATABASES = {
     #      'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
 
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    #     'NAME': 'wrwrkynm',
-    #     'USER': 'wrwrkynm',
-    #     'PASSWORD': 'eX148hUqGTMwXjvVwdXZUMuSwLK_RGWD',
-    #     'HOST': 'arjuna.db.elephantsql.com',
-    #     'PORT': '',
-    # }
-
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'online',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'wrwrkynm',
+        'USER': 'wrwrkynm',
+        'PASSWORD': 'eX148hUqGTMwXjvVwdXZUMuSwLK_RGWD',
+        'HOST': 'arjuna.db.elephantsql.com',
         'PORT': '',
     }
+    #
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'online',
+    #     'USER': 'root',
+    #     'PASSWORD': '',
+    #     'HOST': 'localhost',
+    #     'PORT': '',
+    # }
 }
 
 
