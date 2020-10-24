@@ -6,150 +6,180 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-	<head>
-		<title>Allen Ch'ng Life</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="{% static 'homeintro/assets/css/main.css' %}" />
-	</head>
-	<body>
-		<div class="page-wrap">
+<head>
+  <title>Allen Ch'ng Life</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="{% static 'homeintro/assets/css/main.css' %}"/>
+{#  <link rel="stylesheet" href="{% static 'homeintro/assets/css/font-awesome.min.css' %}"/>#}
+</head>
+<body>
+<div class="page-wrap">
 
-			<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html" class="active"><span class="icon fa-home"></span></a></li>
-						<li><a href="{% url 'lava' %}"><span class="icon fa-camera-retro"></span></a></li>
-{#						<li><a href="generic.html"><span class="icon fa-file-text-o"></span></a></li>#}
-					</ul>
-				</nav>
+  <!-- Nav -->
+  <nav id="nav">
+    <ul>
+      <li><a href="index.html" class="active"><span class="icon fa-home"></span></a></li>
+      <li><a href="{% url 'lava' %}"><span class="icon fa-camera-retro"></span></a></li>
+      {#						<li><a href="generic.html"><span class="icon fa-file-text-o"></span></a></li>#}
+    </ul>
+  </nav>
 
-			<!-- Main -->
-				<section id="main">
+  <!-- Main -->
+  <section id="main">
 
-					<!-- Banner -->
-						<section id="banner">
-							<div class="inner">
-								<h1>Hey, I'm Allen</h1>
-								<p>Full Stack Developer / Software Engineer</p>
-								<ul class="actions">
-									<li><a href="#galleries" class="button alt scrolly big">Continue</a></li>
-								</ul>
-							</div>
-						</section>
+    <!-- Banner -->
+    <section id="banner">
+      <div class="inner">
+        <h1>Hey, I'm Allen</h1>
+        <p>Full Stack Developer / Software Engineer</p>
+        <ul class="actions">
+          <li><a href="#galleries" class="button alt scrolly big">Continue</a></li>
+        </ul>
+      </div>
+    </section>
 
-					<!-- Gallery -->
-						<section id="galleries">
+    <!-- Gallery -->
+    <section id="galleries">
 
-							<!-- Photo Galleries -->
-								<div class="gallery">
-									<header class="special">
-										<h2>My Life</h2>
-									</header>
-									<div class="content">
-										<div class="media">
-											<a href="{% static 'homeintro/images/photo/photo_1.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_1.jpg' %}" alt="" title="This right here is a caption." /></a>
-										</div>
-										<div class="media">
-											<a href="{% static 'homeintro/images/photo/photo_2.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_2.jpg' %}" alt="" title="This right here is a caption." /></a>
-										</div>
-										<div class="media">
-											<a href="{% static 'homeintro/images/photo/photo_3.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_3.jpg' %}" alt="" title="This right here is a caption." /></a>
-										</div>
-										<div class="media">
-											<a href="{% static 'homeintro/images/photo/photo_4.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_4.jpg' %}" alt="" title="This right here is a caption." /></a>
-										</div>
-										<div class="media">
-											<a href="{% static 'homeintro/images/photo/photo_5.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_5.jpg' %}" alt="" title="This right here is a caption." /></a>
-										</div>
-										<div class="media">
-											<a href="{% static 'homeintro/images/photo/photo_6.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_6.jpg' %}" alt="" title="This right here is a caption." /></a>
-										</div>
-										<div class="media">
-											<a href="{% static 'homeintro/images/photo/photo_7.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_7.jpg' %}" alt="" title="This right here is a caption." /></a>
-										</div>
-										<div class="media">
-											<a href="{% static 'homeintro/images/photo/photo_8.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_8.jpg' %}" alt="" title="This right here is a caption." /></a>
-										</div>
-									</div>
-								</div>
-						</section>
+      <!-- Photo Galleries -->
+      <div class="gallery">
+        <header class="special">
+          <h2>My Life</h2>
+        </header>
+        <div class="content">
+          <div class="media">
+            <a href="{% static 'homeintro/images/photo/photo_1.jpg' %}"><img
+                src="{% static 'homeintro/images/photo/photo_1.jpg' %}" alt=""
+                title="My Graduation Big Day."/></a>
+          </div>
+          <div class="media">
+            <a href="{% static 'homeintro/images/photo/photo_2.jpg' %}"><img
+                src="{% static 'homeintro/images/photo/photo_2.jpg' %}" alt=""
+                title="UTAR Computer Science Student."/></a>
+          </div>
+          <div class="media">
+            <a href="{% static 'homeintro/images/photo/photo_3.jpg' %}"><img
+                src="{% static 'homeintro/images/photo/photo_3.jpg' %}" alt=""
+                title="The first time blood donation."/></a>
+          </div>
+          <div class="media">
+            <a href="{% static 'homeintro/images/photo/photo_4.jpg' %}"><img
+                src="{% static 'homeintro/images/photo/photo_4.jpg' %}" alt=""
+                title="10 Years Plus best friends brother sister."/></a>
+          </div>
+          <div class="media">
+            <a href="{% static 'homeintro/images/photo/photo_5.jpg' %}"><img
+                src="{% static 'homeintro/images/photo/photo_5.jpg' %}" alt=""
+                title="With Coursin YamSem."/></a>
+          </div>
+          <div class="media">
+            <a href="{% static 'homeintro/images/photo/photo_6.jpg' %}"><img
+                src="{% static 'homeintro/images/photo/photo_6.jpg' %}" alt=""
+                title="Lovely Family Photo, who always support me."/></a>
+          </div>
+          <div class="media">
+            <a href="{% static 'homeintro/images/photo/photo_7.jpg' %}"><img
+                src="{% static 'homeintro/images/photo/photo_7.jpg' %}" alt=""
+                title="Archerlogic Gatherine Day, It's real Fun."/></a>
+          </div>
+          <div class="media">
+            <a href="{% static 'homeintro/images/photo/photo_8.jpg' %}"><img
+                src="{% static 'homeintro/images/photo/photo_8.jpg' %}" alt=""
+                title="Badminton Competition with group of friends."/></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-					<!-- Contact -->
-						<section id="contact">
-							<!-- Social -->
-								<div class="social column">
-									<h3>About My Career</h3>
-									<p>A Full Stack Web Developer with 3 years experience involve in Planning, Analysis, Develop, Testing, Deployment.</p>
-                  <p>The project i involved in : AIA Learning Manage System (Hong Kong Project),
-                    <a href="https://www.coassets.com/">CoAssets Investment Platform (Singapore Project)</a>, Heluo Education Web Application (China Project)</p>
-                  <p><b>AIA Learning Manage System (Hong Kong Project)</b><br>
-                     Forgive me that i can't show the production URLS as LMS is a internal web application.<br> The purpose is for Hong Kong AIA agent to learn the insurance knowledge by attend the online courses and earn the certificate.
-                    <br>That has 3 Web Application for admin, trainee, and trainer to set up and manage their course module. So Trainee wills using the web application to register course and attend E-learning assessment or download material.</p>
-                  <p>
-                    <b>CoAssets Investment Platform ( Singapore Project )</b><br>
-                    CoAssets Pte Ltd, wholly owned by CoAssets Limited (referred to as CoAssets), is Singapore’s and pan Asia-Pacific region’s largest digitally enabled investor platform, offering a wide range of opportunities across different industries.<br>
-                    That has 2 Web application (admin and investor) for admin and investor to manage the investment process including payment, invest, report function etc.
-                  </p>
-                  <p>
-                    <b>Heluo Education Web Application (China Project)</b><br>
-                    A New Education Web Application still in development phase, the application allow users attend the courses by watching video/pdf/ppt to learn about the latest trend.<br>
-                    That has 2 Web application (admin and users), the admin able to manage the courses and content by using util web application and the users able to view and attend the latest courses in the users web application.
-                  </p>
-                  <h3>Follow Me</h3>
-									<ul class="icons">
-										<li><a href="https://twitter.com/LA_chng" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="https://www.facebook.com/lorraine.allen3/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="https://www.instagram.com/allenchg/ " class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a href="https://www.linkedin.com/in/allen-ch-ng-b58999120/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									</ul>
-								</div>
+    <!-- Contact -->
+    <section id="contact">
+      <!-- Social -->
+      <div class="social column">
+        <h3>About My Career</h3>
+        <p>A Full Stack Web Developer with 3 years experience involve in Planning, Analysis, Develop, Testing,
+          Deployment.</p>
+        <p>The project i involved in : AIA Learning Manage System (Hong Kong Project),
+          <a href="https://www.coassets.com/">CoAssets Investment Platform (Singapore Project)</a>, Heluo Education Web
+          Application (China Project)</p>
+        <p><b>AIA Learning Manage System (Hong Kong Project)</b><br>
+          Forgive me that i can't show the production URLS as LMS is a internal web application.<br> The purpose is for
+          Hong Kong AIA agent to learn the insurance knowledge by attend the online courses and earn the certificate.
+          <br>That has 3 Web Application for admin, trainee, and trainer to set up and manage their course module. So
+          Trainee wills using the web application to register course and attend E-learning assessment or download
+          material.</p>
+        <p>
+          <b>CoAssets Investment Platform ( Singapore Project )</b><br>
+          CoAssets Pte Ltd, wholly owned by CoAssets Limited (referred to as CoAssets), is Singapore’s and pan
+          Asia-Pacific region’s largest digitally enabled investor platform, offering a wide range of opportunities
+          across different industries.<br>
+          That has 2 Web application (admin and investor) for admin and investor to manage the investment process
+          including payment, invest, report function etc.
+        </p>
+        <p>
+          <b>Heluo Education Web Application (China Project)</b><br>
+          A New Education Web Application still in development phase, the application allow users attend the courses by
+          watching video/pdf/ppt to learn about the latest trend.<br>
+          That has 2 Web application (admin and users), the admin able to manage the courses and content by using util
+          web application and the users able to view and attend the latest courses in the users web application.
+        </p>
+        <h3>Follow Me</h3>
+        <ul class="icons">
+          <li><a href="https://twitter.com/LA_chng" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a href="https://www.facebook.com/lorraine.allen3/" class="icon fa-facebook"><span
+              class="label">Facebook</span></a></li>
+          <li><a href="https://www.instagram.com/allenchg/ " class="icon fa-instagram"><span
+              class="label">Instagram</span></a></li>
+          <li><a href="https://www.linkedin.com/in/allen-ch-ng-b58999120/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a>
+          </li>
+        </ul>
+      </div>
 
-							<!-- Form -->
-								<div class="column">
-									<h3>Get in Touch</h3>
-									<form action="contact" method="post">
-										{% csrf_token %}
-										<div class="field half first">
-											<label for="name">Contact</label>
-											<p>+65 97919611</p>
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<p>chng_999@hotmail.com</p>
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<p>A reliable and detailed-oriented individual looking to work as full-stack
-                        software engineer. Offering expertise in Java, python and core web
-                        development skills.</p>
-										</div>
-									</form>
-								</div>
+      <!-- Form -->
+      <div class="column">
+        <h3>Get in Touch</h3>
+        <form action="contact" method="post">
+          {% csrf_token %}
+          <div class="field half first">
+            <label for="name">Contact</label>
+            <p>+65 97919611</p>
+          </div>
+          <div class="field half">
+            <label for="email">Email</label>
+            <p>chng_999@hotmail.com</p>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <p>A reliable and detailed-oriented individual looking to work as full-stack
+              software engineer. Offering expertise in Java, python and core web
+              development skills.</p>
+          </div>
+        </form>
+      </div>
 
-						</section>
+    </section>
 
-					<!-- Footer -->
-						<footer id="footer">
-							<div class="copyright">
-								&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>.
-							</div>
-						</footer>
-				</section>
-		</div>
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="copyright">
+        &copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>.
+      </div>
+    </footer>
+  </section>
+</div>
 
-		<!-- Scripts -->
-			<script src="{% static 'homeintro/assets/js/jquery.min.js' %}"></script>
-			<script src="{% static 'homeintro/assets/js/jquery.poptrox.min.js' %}"></script>
-			<script src="{% static 'homeintro/assets/js/jquery.scrolly.min.js' %}"></script>
-			<script src="{% static 'homeintro/assets/js/skel.min.js' %}"></script>
-			<script src="{% static 'homeintro/assets/js/util.js' %}"></script>
-			<script src="{% static 'homeintro/assets/js/main.js' %}"></script>
-      <script>
-        $("#test").click(function() {
-            window.location.href = 'https://resumeweb.blob.core.windows.net/uploadfile/ALLEN_CHNG.pdf'
-        });
-      </script>
+<!-- Scripts -->
+<script src="{% static 'homeintro/assets/js/jquery.min.js' %}"></script>
+<script src="{% static 'homeintro/assets/js/jquery.poptrox.min.js' %}"></script>
+<script src="{% static 'homeintro/assets/js/jquery.scrolly.min.js' %}"></script>
+<script src="{% static 'homeintro/assets/js/skel.min.js' %}"></script>
+<script src="{% static 'homeintro/assets/js/util.js' %}"></script>
+<script src="{% static 'homeintro/assets/js/main.js' %}"></script>
+<script>
+  $("#test").click(function () {
+    window.location.href = 'https://resumeweb.blob.core.windows.net/uploadfile/ALLEN_CHNG.pdf'
+  });
+</script>
 
-	</body>
+</body>
 </html>

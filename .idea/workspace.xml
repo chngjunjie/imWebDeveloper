@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c462aeaf-ee08-48c9-a8b6-a6d030439839" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/homeintro/images/photo/photo_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/homeintro/images/photo/photo_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/homeintro/images/photo/photo_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/homeintro/images/photo/photo_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/homeintro/images/photo/photo_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/homeintro/images/photo/photo_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/homeintro/images/photo/photo_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/homeintro/images/photo/photo_8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/imWebDeveloper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/imWebDeveloper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeintro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeintro/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imdeveloper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/imdeveloper/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/homeintro/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/homeintro/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/homeintro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homeintro/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,21 +20,17 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+        <entry file="file://$PROJECT_DIR$/imdeveloper/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+            <state relative-caret-position="146">
+              <caret line="130" column="12" selection-start-line="130" selection-start-column="2" selection-end-line="130" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/imdeveloper/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="143" column="43" lean-forward="true" selection-start-line="143" selection-start-column="43" selection-end-line="143" selection-end-column="43" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/homeintro/assets/css/font-awesome.min.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -56,11 +40,6 @@
               <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homeintro/tests.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -84,41 +63,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/homeintro/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="318">
+              <caret line="88" column="39" lean-forward="true" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/homeintro/images/photo/photo_2.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/homeintro/images/photo/photo_3.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/homeintro/images/photo/photo_6.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/homeintro/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="1620" column="1" selection-start-line="1620" selection-start-column="1" selection-end-line="1620" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homeintro/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imdeveloper/custom_azure.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state>
+              <caret column="24" selection-start-column="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -137,14 +110,15 @@
         <option value="$PROJECT_DIR$/static/homeintro/assets/css/main.css" />
         <option value="$PROJECT_DIR$/homeintro/urls.py" />
         <option value="$PROJECT_DIR$/imdeveloper/urls.py" />
-        <option value="$PROJECT_DIR$/templates/homeintro/index.html" />
         <option value="$PROJECT_DIR$/imdeveloper/settings.py" />
+        <option value="$PROJECT_DIR$/templates/homeintro/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -177,6 +151,47 @@
               <item name="imWebDeveloper" type="b2602c69:ProjectViewProjectNode" />
               <item name="imWebDeveloper" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="homeintro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imWebDeveloper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imWebDeveloper" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="homeintro" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imWebDeveloper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imWebDeveloper" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="homeintro" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imWebDeveloper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imWebDeveloper" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="homeintro" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imWebDeveloper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imWebDeveloper" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="homeintro" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imWebDeveloper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imWebDeveloper" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imWebDeveloper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imWebDeveloper" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="homeintro" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -264,12 +279,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603428853122</updated>
-      <workItem from="1603428855432" duration="14148000" />
+      <workItem from="1603428855432" duration="15481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14148000" />
+    <option name="totallyTimeSpent" value="15481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -282,11 +297,11 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.32961586" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49928468" weight="0.4944238" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49928468" visible="true" weight="0.4944238" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5007153" side_tool="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,16 +341,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/homeintro/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="1620" column="1" selection-start-line="1620" selection-start-column="1" selection-end-line="1620" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/homeintro/images/photo/photo_6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/homeintro/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -363,17 +368,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/homeintro/index.html">
+    <entry file="file://$PROJECT_DIR$/static/homeintro/assets/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/homeintro/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state>
+          <caret column="24" selection-start-column="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/homeintro/images/photo/photo_2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/homeintro/images/photo/photo_3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/homeintro/images/photo/photo_6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/imdeveloper/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="143" column="43" lean-forward="true" selection-start-line="143" selection-start-column="43" selection-end-line="143" selection-end-column="43" />
+        <state relative-caret-position="146">
+          <caret line="130" column="12" selection-start-line="130" selection-start-column="2" selection-end-line="130" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/homeintro/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="88" column="39" lean-forward="true" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
         </state>
       </provider>
     </entry>
