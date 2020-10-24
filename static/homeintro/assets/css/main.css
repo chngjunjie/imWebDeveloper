@@ -1612,3 +1612,10 @@
 			}
 
 		}
+
+
+/* Custom */
+div.gallery div.content div.media img {
+	height: 14.6em;
+	min-width: 100%;
+}

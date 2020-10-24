@@ -7,7 +7,7 @@
 -->
 <html>
 	<head>
-		<title>Snapshot by TEMPLATED</title>
+		<title>Allen Ch'ng Life</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="{% static 'homeintro/assets/css/main.css' %}" />
@@ -19,8 +19,8 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="index.html" class="active"><span class="icon fa-home"></span></a></li>
-						<li><a href="gallery.html"><span class="icon fa-camera-retro"></span></a></li>
-						<li><a href="generic.html"><span class="icon fa-file-text-o"></span></a></li>
+						<li><a href="{% url 'lava' %}"><span class="icon fa-camera-retro"></span></a></li>
+{#						<li><a href="generic.html"><span class="icon fa-file-text-o"></span></a></li>#}
 					</ul>
 				</nav>
 
@@ -30,8 +30,8 @@
 					<!-- Banner -->
 						<section id="banner">
 							<div class="inner">
-								<h1>Hey, I'm Snapshot</h1>
-								<p>A fully responsive gallery template by <a href="https://templated.co">TEMPLATED</a></p>
+								<h1>Hey, I'm Allen</h1>
+								<p>Full Stack Developer / Software Engineer</p>
 								<ul class="actions">
 									<li><a href="#galleries" class="button alt scrolly big">Continue</a></li>
 								</ul>
@@ -44,37 +44,34 @@
 							<!-- Photo Galleries -->
 								<div class="gallery">
 									<header class="special">
-										<h2>What's New</h2>
+										<h2>My Life</h2>
 									</header>
 									<div class="content">
 										<div class="media">
-											<a href="{% static 'homeintro/images/fulls/01.jpg' %}"><img src="{% static 'homeintro/images/thumbs/01.jpg' %}" alt="" title="This right here is a caption." /></a>
+											<a href="{% static 'homeintro/images/photo/photo_1.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_1.jpg' %}" alt="" title="This right here is a caption." /></a>
 										</div>
 										<div class="media">
-											<a href="{% static 'homeintro/images/fulls/05.jpg' %}"><img src="{% static 'homeintro/images/thumbs/05.jpg' %}" alt="" title="This right here is a caption." /></a>
+											<a href="{% static 'homeintro/images/photo/photo_2.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_2.jpg' %}" alt="" title="This right here is a caption." /></a>
 										</div>
 										<div class="media">
-											<a href="{% static 'homeintro/images/fulls/09.jpg' %}"><img src="{% static 'homeintro/images/thumbs/09.jpg' %}" alt="" title="This right here is a caption." /></a>
+											<a href="{% static 'homeintro/images/photo/photo_3.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_3.jpg' %}" alt="" title="This right here is a caption." /></a>
 										</div>
 										<div class="media">
-											<a href="{% static 'homeintro/images/fulls/02.jpg' %}"><img src="{% static 'homeintro/images/thumbs/02.jpg' %}" alt="" title="This right here is a caption." /></a>
+											<a href="{% static 'homeintro/images/photo/photo_4.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_4.jpg' %}" alt="" title="This right here is a caption." /></a>
 										</div>
 										<div class="media">
-											<a href="{% static 'homeintro/images/fulls/06.jpg' %}"><img src="{% static 'homeintro/images/thumbs/06.jpg' %}" alt="" title="This right here is a caption." /></a>
+											<a href="{% static 'homeintro/images/photo/photo_5.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_5.jpg' %}" alt="" title="This right here is a caption." /></a>
 										</div>
 										<div class="media">
-											<a href="{% static 'homeintro/images/fulls/10.jpg' %}"><img src="{% static 'homeintro/images/thumbs/10.jpg' %}" alt="" title="This right here is a caption." /></a>
+											<a href="{% static 'homeintro/images/photo/photo_6.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_6.jpg' %}" alt="" title="This right here is a caption." /></a>
 										</div>
 										<div class="media">
-											<a href="{% static 'homeintro/images/fulls/03.jpg' %}"><img src="{% static 'homeintro/images/thumbs/03.jpg' %}" alt="" title="This right here is a caption." /></a>
+											<a href="{% static 'homeintro/images/photo/photo_7.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_7.jpg' %}" alt="" title="This right here is a caption." /></a>
 										</div>
 										<div class="media">
-											<a href="{% static 'homeintro/images/fulls/07.jpg' %}"><img src="{% static 'homeintro/images/thumbs/07.jpg' %}" alt="" title="This right here is a caption." /></a>
+											<a href="{% static 'homeintro/images/photo/photo_8.jpg' %}"><img src="{% static 'homeintro/images/photo/photo_8.jpg' %}" alt="" title="This right here is a caption." /></a>
 										</div>
 									</div>
-									<footer>
-										<a href="gallery.html" class="button big">Full Gallery</a>
-									</footer>
 								</div>
 						</section>
 
@@ -82,14 +79,29 @@
 						<section id="contact">
 							<!-- Social -->
 								<div class="social column">
-									<h3>About Me</h3>
-									<p>Mus sed interdum nunc dictum rutrum scelerisque erat a parturient condimentum potenti dapibus vestibulum condimentum per tristique porta. Torquent a ut consectetur a vel ullamcorper a commodo a mattis ipsum class quam sed eros vestibulum quisque a eu nulla scelerisque a elementum vestibulum.</p>
-									<p>Aliquet dolor ultricies sem rhoncus dolor ullamcorper pharetra dis condimentum ullamcorper rutrum vehicula id nisi vel aptent orci litora hendrerit penatibus erat ad sit. In a semper velit eleifend a viverra adipiscing a phasellus urna praesent parturient integer ultrices montes parturient suscipit posuere quis aenean. Parturient euismod ultricies commodo arcu elementum suspendisse id dictumst at ut vestibulum conubia quisque a himenaeos dictum proin dis purus integer mollis parturient eros scelerisque dis libero parturient magnis.</p>
-									<h3>Follow Me</h3>
+									<h3>About My Career</h3>
+									<p>A Full Stack Web Developer with 3 years experience involve in Planning, Analysis, Develop, Testing, Deployment.</p>
+                  <p>The project i involved in : AIA Learning Manage System (Hong Kong Project),
+                    <a href="https://www.coassets.com/">CoAssets Investment Platform (Singapore Project)</a>, Heluo Education Web Application (China Project)</p>
+                  <p><b>AIA Learning Manage System (Hong Kong Project)</b><br>
+                     Forgive me that i can't show the production URLS as LMS is a internal web application.<br> The purpose is for Hong Kong AIA agent to learn the insurance knowledge by attend the online courses and earn the certificate.
+                    <br>That has 3 Web Application for admin, trainee, and trainer to set up and manage their course module. So Trainee wills using the web application to register course and attend E-learning assessment or download material.</p>
+                  <p>
+                    <b>CoAssets Investment Platform ( Singapore Project )</b><br>
+                    CoAssets Pte Ltd, wholly owned by CoAssets Limited (referred to as CoAssets), is Singapore’s and pan Asia-Pacific region’s largest digitally enabled investor platform, offering a wide range of opportunities across different industries.<br>
+                    That has 2 Web application (admin and investor) for admin and investor to manage the investment process including payment, invest, report function etc.
+                  </p>
+                  <p>
+                    <b>Heluo Education Web Application (China Project)</b><br>
+                    A New Education Web Application still in development phase, the application allow users attend the courses by watching video/pdf/ppt to learn about the latest trend.<br>
+                    That has 2 Web application (admin and users), the admin able to manage the courses and content by using util web application and the users able to view and attend the latest courses in the users web application.
+                  </p>
+                  <h3>Follow Me</h3>
 									<ul class="icons">
-										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://twitter.com/LA_chng" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://www.facebook.com/lorraine.allen3/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="https://www.instagram.com/allenchg/ " class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/allen-ch-ng-b58999120/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 									</ul>
 								</div>
 
@@ -99,20 +111,19 @@
 									<form action="contact" method="post">
 										{% csrf_token %}
 										<div class="field half first">
-											<label for="name">Name</label>
-											<input name="name" id="name" type="text" placeholder="Name">
+											<label for="name">Contact</label>
+											<p>+65 97919611</p>
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input name="email" id="email" type="email" placeholder="Email">
+											<p>chng_999@hotmail.com</p>
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+											<p>A reliable and detailed-oriented individual looking to work as full-stack
+                        software engineer. Offering expertise in Java, python and core web
+                        development skills.</p>
 										</div>
-										<ul class="actions">
-											<li><input value="Send Message" class="button" type="submit"></li>
-										</ul>
 									</form>
 								</div>
 
@@ -134,6 +145,11 @@
 			<script src="{% static 'homeintro/assets/js/skel.min.js' %}"></script>
 			<script src="{% static 'homeintro/assets/js/util.js' %}"></script>
 			<script src="{% static 'homeintro/assets/js/main.js' %}"></script>
+      <script>
+        $("#test").click(function() {
+            window.location.href = 'https://resumeweb.blob.core.windows.net/uploadfile/ALLEN_CHNG.pdf'
+        });
+      </script>
 
 	</body>
 </html>
